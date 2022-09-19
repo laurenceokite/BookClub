@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "CaaKX/fhbP/9a/+q6YUhm1Ic1pZgWqMDCfXqLGhFnYS1hHLjoBeHZib0pLfbTGuwcF6pxaW6Ehyr4KPBcMWsEQ==",
+  "success": true,
+  "projectFilePath": "/Users/lokite/Projects/BookClub/server/BookClub.API/BookClub.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/lokite/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/lokite/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/lokite/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/lokite/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/lokite/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/lokite/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
