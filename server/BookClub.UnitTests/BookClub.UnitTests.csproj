@@ -21,4 +21,11 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BookClub.Models\BookClub.Models.csproj" />
+    <ProjectReference Include="..\BookClub.API\BookClub.API.csproj" />
+    <ProjectReference Include="..\BookClub.Data\BookClub.Data.csproj" />
+    <ProjectReference Include="..\BookClub.Services\BookClub.Services.csproj" />
+  </ItemGroup>
+
 </Project>

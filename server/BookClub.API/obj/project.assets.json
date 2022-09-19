@@ -88,6 +88,43 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "BookClub.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BookClub.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BookClub.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookClub.Data.dll": {}
+        }
+      },
+      "BookClub.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BookClub.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookClub.Models.dll": {}
+        }
+      },
+      "BookClub.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BookClub.Data": "1.0.0",
+          "BookClub.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BookClub.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookClub.Services.dll": {}
+        }
       }
     }
   },
@@ -216,10 +253,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "BookClub.Data/1.0.0": {
+      "type": "project",
+      "path": "../BookClub.Data/BookClub.Data.csproj",
+      "msbuildProject": "../BookClub.Data/BookClub.Data.csproj"
+    },
+    "BookClub.Models/1.0.0": {
+      "type": "project",
+      "path": "../BookClub.Models/BookClub.Models.csproj",
+      "msbuildProject": "../BookClub.Models/BookClub.Models.csproj"
+    },
+    "BookClub.Services/1.0.0": {
+      "type": "project",
+      "path": "../BookClub.Services/BookClub.Services.csproj",
+      "msbuildProject": "../BookClub.Services/BookClub.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BookClub.Data >= 1.0.0",
+      "BookClub.Models >= 1.0.0",
+      "BookClub.Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -247,7 +302,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/lokite/Projects/BookClub/server/BookClub.Data/BookClub.Data.csproj": {
+              "projectPath": "/Users/lokite/Projects/BookClub/server/BookClub.Data/BookClub.Data.csproj"
+            },
+            "/Users/lokite/Projects/BookClub/server/BookClub.Models/BookClub.Models.csproj": {
+              "projectPath": "/Users/lokite/Projects/BookClub/server/BookClub.Models/BookClub.Models.csproj"
+            },
+            "/Users/lokite/Projects/BookClub/server/BookClub.Services/BookClub.Services.csproj": {
+              "projectPath": "/Users/lokite/Projects/BookClub/server/BookClub.Services/BookClub.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -25,7 +25,17 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/lokite/Projects/BookClub/server/BookClub.Data/BookClub.Data.csproj": {
+                "projectPath": "/Users/lokite/Projects/BookClub/server/BookClub.Data/BookClub.Data.csproj"
+              },
+              "/Users/lokite/Projects/BookClub/server/BookClub.Models/BookClub.Models.csproj": {
+                "projectPath": "/Users/lokite/Projects/BookClub/server/BookClub.Models/BookClub.Models.csproj"
+              },
+              "/Users/lokite/Projects/BookClub/server/BookClub.Services/BookClub.Services.csproj": {
+                "projectPath": "/Users/lokite/Projects/BookClub/server/BookClub.Services/BookClub.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -58,6 +68,176 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/lokite/Projects/BookClub/server/BookClub.Data/BookClub.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lokite/Projects/BookClub/server/BookClub.Data/BookClub.Data.csproj",
+        "projectName": "BookClub.Data",
+        "projectPath": "/Users/lokite/Projects/BookClub/server/BookClub.Data/BookClub.Data.csproj",
+        "packagesPath": "/Users/lokite/.nuget/packages/",
+        "outputPath": "/Users/lokite/Projects/BookClub/server/BookClub.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lokite/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/lokite/Projects/BookClub/server/BookClub.Models/BookClub.Models.csproj": {
+                "projectPath": "/Users/lokite/Projects/BookClub/server/BookClub.Models/BookClub.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/lokite/Projects/BookClub/server/BookClub.Models/BookClub.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lokite/Projects/BookClub/server/BookClub.Models/BookClub.Models.csproj",
+        "projectName": "BookClub.Models",
+        "projectPath": "/Users/lokite/Projects/BookClub/server/BookClub.Models/BookClub.Models.csproj",
+        "packagesPath": "/Users/lokite/.nuget/packages/",
+        "outputPath": "/Users/lokite/Projects/BookClub/server/BookClub.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lokite/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/lokite/Projects/BookClub/server/BookClub.Services/BookClub.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lokite/Projects/BookClub/server/BookClub.Services/BookClub.Services.csproj",
+        "projectName": "BookClub.Services",
+        "projectPath": "/Users/lokite/Projects/BookClub/server/BookClub.Services/BookClub.Services.csproj",
+        "packagesPath": "/Users/lokite/.nuget/packages/",
+        "outputPath": "/Users/lokite/Projects/BookClub/server/BookClub.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lokite/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/lokite/Projects/BookClub/server/BookClub.Data/BookClub.Data.csproj": {
+                "projectPath": "/Users/lokite/Projects/BookClub/server/BookClub.Data/BookClub.Data.csproj"
+              },
+              "/Users/lokite/Projects/BookClub/server/BookClub.Models/BookClub.Models.csproj": {
+                "projectPath": "/Users/lokite/Projects/BookClub/server/BookClub.Models/BookClub.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
